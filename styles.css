@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514e;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  padding-top: 100px;
+  position: relative;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  margin-top: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+
+.h2 {
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999e;
+}
+
+.middle-container {
+  margin: 100px auto;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  height: 170px;
+  padding-top: 60px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+}
+
+p {
+  line-height: 2;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 450px;
+  top: 30px
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.paragraph {
+  margin-left: 30px
+}
+
+hr {
+  background-color: white;
+  border-style: dotted none none;
+  width: 5%;
+  border-color: #eaf6f6;
+  border-width: 5px;
+  margin: 100px auto;
+}
+
+.footer-link {
+  color: #11999e;
+  margin: 20px;
+  margin-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.p1 {
+  margin-top: 40px;
+  color: #eaf6f6;
+}
+
+.contact-message {
+  width: 35%;
+  margin: 40px auto 60px;
+  margin-bottom: 30px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.btn {
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  color: rgb(46, 54, 102);
+  font-size: 20px;
+  padding: 20px;
+  text-shadow: 0 -1px 0 rgba(30, 30, 30, 0.8);
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  background: rgb(163, 255, 199);
+  background: -moz-linear-gradient(90deg, rgb(163, 255, 199) 30%, rgb(120, 237, 190) 70%);
+  background: -webkit-linear-gradient(90deg, rgb(163, 255, 199) 30%, rgb(120, 237, 190) 70%);
+  background: -o-linear-gradient(90deg, rgb(163, 255, 199) 30%, rgb(120, 237, 190) 70%);
+  background: -ms-linear-gradient(90deg, rgb(163, 255, 199) 30%, rgb(120, 237, 190) 70%);
+  background: linear-gradient(0deg, rgb(163, 255, 199) 30%, rgb(120, 237, 190) 70%);
+  -webkit-box-shadow: 0 2px 1px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 0 2px 1px rgba(50, 50, 50, 0.75);
+  box-shadow: 0 2px 1px rgba(50, 50, 50, 0.75);
+}
+
+a:hover{
+  color: #eaf6f6;
+}
